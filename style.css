@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;500;600;700;800;900&display=swap');
 
 *{
 	margin: 0;
@@ -8,7 +8,7 @@
 
 body{
 	height: 100vh;
-	font-family: "Raleway", sans-serif;
+	font-family: 'Bodoni Moda', serif;
 	background: #2F3238;
 }
 h1 {
@@ -79,7 +79,7 @@ h4 {
 }
 
 .image:hover .details h2{
-	transform: translateY(-30px);
+	transform: translateY(-40px);
 }
 
 .image .details p{
@@ -95,7 +95,7 @@ h4 {
 
 .image:hover .details p{
 	opacity: 1;
-	transform: translateY(-40px);
+	transform: translateY(-60px);
 }
 
 .more{
@@ -105,7 +105,7 @@ h4 {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 15px;
+	padding: 5px 15px;
 	bottom: -60px;
 	transition: 0.6s;
 	transition-property: bottom;
